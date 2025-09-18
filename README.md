@@ -11,3 +11,5 @@ Etiquetas semánticas
 <nav></nav> -> contendrá el menú de mi web
 
 Crear comentario dentro del código -> CTRL+Ç
+
+Dentro de cada <div> vamos a añadir un <img> y en el mismo nivel otro <div> y dentro de este un <h3> y un <p>

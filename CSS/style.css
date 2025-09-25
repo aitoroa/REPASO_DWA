@@ -6,6 +6,14 @@
     /* font-size: 28px; */
 }
 
+/* Declaración de variables CSS */
+:root {
+    --text-color: black;
+    --bg-color-primary: blanchedalmond;
+    --bg-color-menu: blueviolet;
+    --transition-time: 0.3s;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,12 +60,13 @@ nav > .menu_pr a {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  padding: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: var(--transition-time);
 }
 
-nav a:hover {
-    background-color: black;
-    color: blanchedalmond;
-    padding: 1rem;
-    border-radius: 10%;
+/* Selector para hover sobre las opciones del menú */
+nav > .menu_pr a:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color-primary);
 }

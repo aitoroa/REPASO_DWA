@@ -14,6 +14,8 @@ Crear comentario dentro del código -> CTRL+Ç
 
 Mover línea de código -> Alt + Flechas
 
+1rem=16px
+
 Dentro de cada <div> vamos a añadir un <img> y en el mismo nivel otro <div> y dentro de este un <h3> y un <p>
 
 - Modelo de cajas HTML y CSS
@@ -34,6 +36,14 @@ Llamamos o invocamos con la función var (--valor)
 
 Las variables pueden contener cualquier valor (colores, tamaños, etc...)
 
-CSS-TRICKS -> CSS Flexbox Layout Guide
+## Pseudo-clases
 
-1rem=16px
+div:first-child
+div:last-child
+div:nth-child(5)
+
+## Flexbox
+
+CSS-TRICKS -> CSS Flexbox Layout Guide -> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+El flex-direction tiene como valor default -> row

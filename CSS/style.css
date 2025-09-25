@@ -70,3 +70,28 @@ nav > .menu_pr a:hover {
     background-color: var(--text-color);
     color: var(--bg-color-primary);
 }
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    /* padding: 3rem; */
+}
+
+main > section.hero {
+    display: flex;
+    gap: 2rem;
+}
+
+main > section.hero > div.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+main > section.hero > div.content-features {
+    display: flex;
+    gap: 1rem;
+    width: 60%;
+}

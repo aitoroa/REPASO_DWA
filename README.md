@@ -48,4 +48,10 @@ CSS-TRICKS -> CSS Flexbox Layout Guide -> https://css-tricks.com/snippets/css/a-
 
 El flex-direction tiene como valor default -> row
 
+## WEBS
+
 - Referencias e inspiración (enfocado más a smartphone) -> Mobbin
+
+- CSS Gradient
+
+- Iconos -> Font Awesome, Boxicons y Heroicons

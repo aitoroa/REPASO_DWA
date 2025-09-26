@@ -7,10 +7,11 @@
 }
 
 /* Declaración de variables CSS */
+
 :root {
     --text-color: black;
-    --bg-color-primary: blanchedalmond;
-    --bg-color-menu: blueviolet;
+    --bg-color-primary: rgb(100, 215, 205);
+    --bg-color-menu: rgb(250, 250, 255);
     --transition-time: 0.3s;
 }
 
@@ -36,18 +37,18 @@ h1 {
 }
 
 header {
-    background-color: blueviolet;
-    color: aliceblue;
+    background-color: var(--text-color);
+    color: var(--bg-color-menu);
     text-align: center;
 }
 
 header p {
-    color: red;
+    color: var(--bg-color-menu);
     font-size: 1.5rem;
 }
 
 nav {
-    background-color: blanchedalmond;
+    background-color: var(--bg-color-primary);
 }
 
 nav > .menu_pr {
@@ -66,12 +67,14 @@ nav > .menu_pr a {
 }
 
 /* Selector para hover sobre las opciones del menú */
+
 nav > .menu_pr a:hover {
     background-color: var(--text-color);
     color: var(--bg-color-primary);
 }
 
 /* MAIN */
+
 main {
     display: flex;
     flex-direction: column;
@@ -123,9 +126,17 @@ main > section.hero > div.content-features > .column > .feature > div {
     width: 100%;
     height: 100%;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    color: aliceblue;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 /* FULL WIDTH */
+
 #full-w > div {
     position: relative;
     display: flex;
@@ -146,6 +157,7 @@ main > section.hero > div.content-features > .column > .feature > div {
 }
 
 /* GALLERY */
+
 #gallery {
     padding: 4rem 0;
 }

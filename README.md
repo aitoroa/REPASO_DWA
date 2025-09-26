@@ -47,3 +47,5 @@ div:nth-child(5)
 CSS-TRICKS -> CSS Flexbox Layout Guide -> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 El flex-direction tiene como valor default -> row
+
+- Referencias e inspiración (enfocado más a smartphone) -> Mobbin
